@@ -151,4 +151,4 @@ L'APK de démo est disponible ici : [`app-debug.apk`](./app-debug.apk)
 ## Auteur
 
 Projet réalisé dans le cadre d'un cours de **sécurité des applications mobiles**.  
-**EZZAIRI wissal** — ENSA Agadir
+**EZZAIRI wissal** - ENSA Agadir
