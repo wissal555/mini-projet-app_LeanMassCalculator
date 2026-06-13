@@ -7,10 +7,10 @@ Application Android de calcul de la **masse maigre corporelle (LBM)**, développ
 
 ## Fonctionnalités
 
-- **Calcul de la masse maigre (LBM)** — saisie du poids, du taux de graisse corporelle et du genre ; affichage du résultat avec comparaison aux normes (homme ≥ 38 kg, femme ≥ 24 kg)
-- **Authentification utilisateur** — inscription (`RegisterActivity`) et connexion (`LoginActivity`) avec politique de mot de passe (`PasswordPolicy`) et validation (`ValidationResult`)
-- **Historique des calculs** — liste des résultats passés via `HistoryActivity` et `HistoryAdapter`, stockés dans la table `lbm_history`
-- **Configuration externe** — seuils de normalité chargés depuis `assets/config.json` via `ConfigManager`
+- **Calcul de la masse maigre (LBM)** : saisie du poids, du taux de graisse corporelle et du genre ; affichage du résultat avec comparaison aux normes (homme ≥ 38 kg, femme ≥ 24 kg)
+- **Authentification utilisateur** : inscription (`RegisterActivity`) et connexion (`LoginActivity`) avec politique de mot de passe (`PasswordPolicy`) et validation (`ValidationResult`)
+- **Historique des calculs** : liste des résultats passés via `HistoryActivity` et `HistoryAdapter`, stockés dans la table `lbm_history`
+- **Configuration externe** : seuils de normalité chargés depuis `assets/config.json` via `ConfigManager`
 
 ---
 
@@ -48,7 +48,7 @@ com.example.leanmasscalculator/
 
 La sécurité est le cœur de ce projet. Deux couches de protection sont mises en place pour protéger toutes les données locales.
 
-### 1. Chiffrement des préférences — `EncryptedSharedPreferences`
+### 1. Chiffrement des préférences : `EncryptedSharedPreferences`
 
 Les données de session et la clé de base de données sont stockées dans un fichier chiffré unique (`session_enc`), protégé par une `MasterKey` AES-256-GCM via le **Android Keystore System**.
 
